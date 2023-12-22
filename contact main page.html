@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Login</title>
+    <style>
+        body {
+    background-color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+.card-header {
+    background-color:  violet;
+    color: white;
+}
+
+.btn-primary {
+    background-color: violet;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: purple;
+}
+
+.input-group-text {
+    background-color: violet;
+    color: white;
+    border: none;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-5 pe-5" href="#"><img src="logo2.jpg" style="border-radius:100%; width:60px;height:60px;">  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2  mb-lg-0  ps-5">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="allcontacts.html">ALL CONTACTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contact main page.html">REGISTER</a>
+              </li>
+        
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contact login.html">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-outline-light btn-center ms-5">LOGOUT</button>
+              </li>
+              
+            </ul>
+            </div>
+          </div>
+      </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="text-dark">Contact Register</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="full name:">Full Name :</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="full name" placeholder="Enter your Full Name">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="E-mail Id:">E-mail Id :</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id="E-mail Id:" placeholder="Enter your E-mail Id ">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password :</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id="Password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Confirm Password :</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id=" Create Password" placeholder=" Confirm Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Mobile :</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-mobile-alt"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id="1234567890" placeholder="1234567890 ">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">
+        If already registered
+        <a href="contact login.html"> Click here </a> to Login
+    </p>
+</body>
+</html>
